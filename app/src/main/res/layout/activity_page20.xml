@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page20">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+        <ImageView
+            android:id="@+id/v1"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/v2"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/baseline_add_shopping_cart_24" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/baseline_add_box_24" />
+
+        <ImageView
+            android:id="@+id/v3"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/baseline_add_comment_24" />
+
+        <ImageView
+            android:id="@+id/v4"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/baseline_account_circle_24" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="@string/summary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="187dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98"
+        app:srcCompat="@drawable/img6" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="180dp"
+        android:layout_height="204dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33"
+        app:srcCompat="@drawable/img14" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout21"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView98">
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/indoor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qty"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout22"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout21">
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/g1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/outdoor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qty2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price2"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34">
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order4"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/v"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="57dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_arrow_circle_left_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

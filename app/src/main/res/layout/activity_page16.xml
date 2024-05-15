@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page16">
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="329dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72"
+        app:srcCompat="@drawable/img19" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="@string/cdetails"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="209dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:text="@string/namee"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:text="@string/num"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edate"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ccv"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green1"
+            android:text="@string/proceed"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
